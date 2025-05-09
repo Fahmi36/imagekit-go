@@ -6,7 +6,7 @@ import (
 	"log"
 
 	"github.com/Fahmi36/imagekit-go"
-	"github.com/Fahmi36/url"
+	"github.com/Fahmi36/imagekit-go/url"
 )
 
 var ctx = context.Background()

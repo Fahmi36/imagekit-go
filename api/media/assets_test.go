@@ -11,7 +11,7 @@ import (
 	"testing"
 
 	"github.com/Fahmi36/imagekit-go/api/extension"
-	iktest "github.com/Fahmi36/test"
+	iktest "github.com/Fahmi36/imagekit-go/test"
 	"github.com/google/go-cmp/cmp"
 )
 

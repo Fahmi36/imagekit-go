@@ -14,8 +14,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/Fahmi36/config"
 	"github.com/Fahmi36/imagekit-go/api"
+	"github.com/Fahmi36/imagekit-go/config"
 	"github.com/google/go-cmp/cmp"
 )
 

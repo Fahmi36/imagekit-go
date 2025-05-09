@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/Fahmi36/api/media"
-	"github.com/Fahmi36/examples/assets"
 	"github.com/Fahmi36/imagekit-go"
+	"github.com/Fahmi36/imagekit-go/api/media"
+	"github.com/Fahmi36/imagekit-go/examples/assets"
 )
 
 var ctx = context.Background()

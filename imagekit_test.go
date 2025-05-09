@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/Fahmi36/imagekit-go/logger"
-	ikurl "github.com/Fahmi36o/url"
+	ikurl "github.com/Fahmi36/imagekit-go/url"
 	"github.com/google/go-cmp/cmp"
 )
 

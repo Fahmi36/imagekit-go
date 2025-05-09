@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/Fahmi36/imagekit-go"
-	ikurl "github.com/Fahmi36/url"
+	ikurl "github.com/Fahmi36/imagekit-go/url"
 )
 
 func main() {

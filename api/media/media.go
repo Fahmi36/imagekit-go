@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/Fahmi36/config"
 	"github.com/Fahmi36/imagekit-go/api"
-	"github.com/Fahmi36/logger"
+	"github.com/Fahmi36/imagekit-go/config"
+	"github.com/Fahmi36/imagekit-go/logger"
 )
 
 // API is the main struct for media
