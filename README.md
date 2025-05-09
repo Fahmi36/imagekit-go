@@ -1,8 +1,8 @@
-[<img width="250" alt="ImageKit.io" src="https://raw.githubusercontent.com/imagekit-developer/imagekit-javascript/master/assets/imagekit-light-logo.svg"/>](https://imagekit.io)
+[<img width="250" alt="ImageKit.io" src="https://raw.githubusercontent.com/Fahmi36/imagekit-javascript/master/assets/imagekit-light-logo.svg"/>](https://imagekit.io)
 
 # ImageKit.io Go SDK
-[![CI](https://github.com/imagekit-developer/imagekit-go/workflows/CI/badge.svg)](https://github.com/imagekit-developer/imagekit-go/)
-[![codecov](https://codecov.io/gh/imagekit-developer/imagekit-go/branch/dev/graph/badge.svg)](https://codecov.io/gh/imagekit-developer/imagekit-go)
+[![CI](https://github.com/Fahmi36/imagekit-go/workflows/CI/badge.svg)](https://github.com/Fahmi36/imagekit-go/)
+[![codecov](https://codecov.io/gh/Fahmi36/imagekit-go/branch/dev/graph/badge.svg)](https://codecov.io/gh/Fahmi36/imagekit-go)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Twitter Follow](https://img.shields.io/twitter/follow/imagekitio?label=Follow&style=social)](https://twitter.com/ImagekitIo)
 
@@ -38,14 +38,14 @@ Table of contents -
 ## Installation
 
 ```bash
-go get github.com/imagekit-developer/imagekit-go
+go get github.com/Fahmi36/imagekit-go
 ```
 
 ## Initialization
 
 ```go
 import (
-    "github.com/imagekit-developer/imagekit-go"
+    "github.com/Fahmi36/imagekit-go"
 )
 
 // Using environment variables IMAGEKIT_PRIVATE_KEY, IMAGEKIT_PUBLIC_KEY and IMAGEKIT_ENDPOINT_URL
@@ -102,7 +102,7 @@ This method allows you to create an URL to access a file using the relative file
 
 ```
 import (
-    ikurl "github.com/imagekit-developer/imagekit-go/url"
+    ikurl "github.com/Fahmi36/imagekit-go/url"
 )
 
 url, err := ik.Url(ikurl.UrlParam{
@@ -127,7 +127,7 @@ This method allows you to add transformation parameters to an absolute URL. For 
 
 ```
 import (
-    ikurl "github.com/imagekit-developer/imagekit-go/url"
+    ikurl "github.com/Fahmi36/imagekit-go/url"
 )
 
 url, err := ik.Url(ikurl.UrlParam{
@@ -323,7 +323,7 @@ The SDK uploader package provides a simple interface using the `.upload()` metho
 The upload() method accept file and UploadParam. File param can be base64 encoded image, absolute HTTP URL, or io.Reader. This method returns the `UploadResponse` object and `err` if any. In addition, you can pass other parameters supported by the ImageKit upload API using the same parameter name as specified in the upload API documentation. For example, to set tags for a file at the upload time, use the tags parameter as defined in the [documentation here](https://docs.imagekit.io/api-reference/upload-file-api/server-side-file-upload).
 
 ```
-import "github.com/imagekit-developer/imagekit-go/uploader"
+import "github.com/Fahmi36/imagekit-go/uploader"
 
 const base64Image = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 resp, err := ik.Uploader.Upload(ctx, base64Image, uploader.UploadParam{
@@ -341,8 +341,8 @@ List files in the media library, optionally filter and sort using `FileParams`.
 
 ```
 import (
-    "github.com/imagekit-developer/imagekit-go"
-    "github.com/imagekit-developer/imagekit-go/api/media"
+    "github.com/Fahmi36/imagekit-go"
+    "github.com/Fahmi36/imagekit-go/api/media"
 )
 
 resp, err := ik.Media.Files(ctx, media.FilesParam{
@@ -572,7 +572,7 @@ Create, Update, Read and Delete custom metadata rules as per the [API documentat
 
 ### 1. Create custom metadata field
 ```
-import "github.com/imagekit-developer/imagekit-go/api/media/metadata"
+import "github.com/Fahmi36/imagekit-go/api/media/metadata"
 
 resp, err := ik.Metadata.CreateCustomField(ctx, metadata.CreateFieldParam{
     Name: "weight",
@@ -635,9 +635,9 @@ Whenever backend API returns 429 status code, error of type `ErrTooManyRequests`
 import (
     "errors"
 
-    "github.com/imagekit-developer/imagekit-go"
-    "github.com/imagekit-developer/imagekit-go/metadata"
-    "github.com/imagekit-developer/imagekit-go/api"
+    "github.com/Fahmi36/imagekit-go"
+    "github.com/Fahmi36/imagekit-go/metadata"
+    "github.com/Fahmi36/imagekit-go/api"
 )
 ik, err := ImageKit.New()
 
