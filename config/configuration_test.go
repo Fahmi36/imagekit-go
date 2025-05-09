@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/imagekit-developer/imagekit-go/config"
+	"github.com/Fahmi36/imagekit-go/config"
 	"github.com/stretchr/testify/assert"
 )
 

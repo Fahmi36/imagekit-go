@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	ikurl "github.com/imagekit-developer/imagekit-go/url"
+	ikurl "github.com/Fahmi36/imagekit-go/url"
 )
 
 const DEFAULT_TIMESTAMP int64 = 9999999999

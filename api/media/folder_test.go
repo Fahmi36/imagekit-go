@@ -5,8 +5,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	iktest "github.com/Fahmi36/imagekit-go/test"
 	"github.com/google/go-cmp/cmp"
-	iktest "github.com/imagekit-developer/imagekit-go/test"
 )
 
 func TestMedia_CreateFolder(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/imagekit-developer/imagekit-go/api"
+	"github.com/Fahmi36/imagekit-go/api"
 	"gopkg.in/validator.v2"
 )
 
@@ -37,7 +37,7 @@ type JobIdResponse struct {
 	JobId string `json:"jobId"`
 }
 
-//FolderResponse respresents struct for response to move folder api.
+// FolderResponse respresents struct for response to move folder api.
 type FolderResponse struct {
 	Data JobIdResponse
 	api.Response

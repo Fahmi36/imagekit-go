@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/Fahmi36/api/extension"
 	"github.com/Fahmi36/imagekit-go/api"
+	"github.com/Fahmi36/imagekit-go/api/extension"
 )
 
 // UploadParam defines upload parameters

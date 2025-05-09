@@ -11,9 +11,9 @@ import (
 
 	neturl "net/url"
 
-	"github.com/Fahmi36/config"
 	"github.com/Fahmi36/imagekit-go/api"
-	"github.com/Fahmi36/logger"
+	"github.com/Fahmi36/imagekit-go/config"
+	"github.com/Fahmi36/imagekit-go/logger"
 	"gopkg.in/validator.v2"
 )
 
