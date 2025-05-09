@@ -10,9 +10,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/imagekit-developer/imagekit-go/api"
-	"github.com/imagekit-developer/imagekit-go/config"
-	"github.com/imagekit-developer/imagekit-go/logger"
+	"github.com/Fahmi36/config"
+	"github.com/Fahmi36/imagekit-go/api"
+	"github.com/Fahmi36/logger"
 )
 
 // API is the upload feature main struct

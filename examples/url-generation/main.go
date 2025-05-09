@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/imagekit-developer/imagekit-go"
-	ikurl "github.com/imagekit-developer/imagekit-go/url"
+	"github.com/Fahmi36/imagekit-go"
+	ikurl "github.com/Fahmi36/url"
 )
 
 func main() {

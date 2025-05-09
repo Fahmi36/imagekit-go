@@ -6,8 +6,8 @@ import (
 	"log"
 	"path/filepath"
 
-	"github.com/imagekit-developer/imagekit-go"
-	"github.com/imagekit-developer/imagekit-go/api/uploader"
+	"github.com/Fahmi36/api/uploader"
+	"github.com/Fahmi36/imagekit-go"
 )
 
 //go:embed data

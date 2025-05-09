@@ -4,8 +4,8 @@ import (
 	"context"
 	"log"
 
-	"github.com/imagekit-developer/imagekit-go"
-	"github.com/imagekit-developer/imagekit-go/examples/assets"
+	"github.com/Fahmi36/examples/assets"
+	"github.com/Fahmi36/imagekit-go"
 )
 
 var ctx = context.Background()

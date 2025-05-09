@@ -14,10 +14,10 @@ import (
 	"os"
 	"testing"
 
+	"github.com/Fahmi36/api/extension"
+	"github.com/Fahmi36/imagekit-go/api"
+	iktest "github.com/Fahmi36/test"
 	"github.com/google/go-cmp/cmp"
-	"github.com/imagekit-developer/imagekit-go/api"
-	"github.com/imagekit-developer/imagekit-go/api/extension"
-	iktest "github.com/imagekit-developer/imagekit-go/test"
 )
 
 var ctx = context.Background()

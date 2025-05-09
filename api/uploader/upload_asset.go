@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/imagekit-developer/imagekit-go/api"
-	"github.com/imagekit-developer/imagekit-go/api/extension"
+	"github.com/Fahmi36/api/extension"
+	"github.com/Fahmi36/imagekit-go/api"
 )
 
 // UploadParam defines upload parameters
@@ -50,9 +50,9 @@ type UploadResponse struct {
 // Upload uploads an asset to a imagekit account.
 //
 // The asset can be:
-//   * the actual data (io.Reader)
-//   * the Data URI (Base64 encoded), max ~60 MB (62,910,000 chars)
-//   * the remote FTP, HTTP or HTTPS URL address of an existing file
+//   - the actual data (io.Reader)
+//   - the Data URI (Base64 encoded), max ~60 MB (62,910,000 chars)
+//   - the remote FTP, HTTP or HTTPS URL address of an existing file
 //
 // https://docs.imagekit.io/api-reference/upload-file-api/server-side-file-upload
 func (u *API) Upload(ctx context.Context, file interface{}, param UploadParam) (*UploadResponse, error) {

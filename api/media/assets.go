@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/imagekit-developer/imagekit-go/api"
-	"github.com/imagekit-developer/imagekit-go/api/extension"
+	"github.com/Fahmi36/api/extension"
+	"github.com/Fahmi36/imagekit-go/api"
 	"gopkg.in/validator.v2"
 )
 

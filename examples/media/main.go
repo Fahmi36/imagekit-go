@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/imagekit-developer/imagekit-go"
-	"github.com/imagekit-developer/imagekit-go/url"
+	"github.com/Fahmi36/imagekit-go"
+	"github.com/Fahmi36/url"
 )
 
 var ctx = context.Background()

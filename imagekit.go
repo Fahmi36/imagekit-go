@@ -9,12 +9,12 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/Fahmi36/imagekit-go/api/media"
+	"github.com/Fahmi36/imagekit-go/api/metadata"
+	"github.com/Fahmi36/imagekit-go/api/uploader"
+	"github.com/Fahmi36/imagekit-go/config"
+	"github.com/Fahmi36/imagekit-go/logger"
 	"github.com/google/uuid"
-	"github.com/imagekit-developer/imagekit-go/api/media"
-	"github.com/imagekit-developer/imagekit-go/api/metadata"
-	"github.com/imagekit-developer/imagekit-go/api/uploader"
-	"github.com/imagekit-developer/imagekit-go/config"
-	"github.com/imagekit-developer/imagekit-go/logger"
 )
 
 // ImageKit main struct

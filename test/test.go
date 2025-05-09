@@ -14,9 +14,9 @@ import (
 	"runtime"
 	"testing"
 
+	"github.com/Fahmi36/config"
+	"github.com/Fahmi36/imagekit-go/api"
 	"github.com/google/go-cmp/cmp"
-	"github.com/imagekit-developer/imagekit-go/api"
-	"github.com/imagekit-developer/imagekit-go/config"
 )
 
 var Cfg *config.Configuration

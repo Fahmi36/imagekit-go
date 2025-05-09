@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/Fahmi36/imagekit-go/logger"
+	ikurl "github.com/Fahmi36o/url"
 	"github.com/google/go-cmp/cmp"
-	"github.com/imagekit-developer/imagekit-go/logger"
-	ikurl "github.com/imagekit-developer/imagekit-go/url"
 )
 
 var imgkit = NewFromParams(NewParams{
